@@ -1,0 +1,23 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug:log": "DEBUG=log* node server.js",
+    "debug:all": "DEBUG=* node server.js"
+  },
+  "author": "Peter M.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsdom": "^12.1.0"
+  },
+  "devDependencies": {
+    "debug": "^4.0.1",
+    "eslint": "^5.6.1"
+  }
+}
