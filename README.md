@@ -14,11 +14,11 @@ To start server:
     `npm install && npm run start`
 
 To start server with a debug mode:
-    `npm install && npm run debug:log`
+    `npm install && npm run start:log`
 
 ## To use server
 
-Make sure your server is running `npm run start` or `npm run debug:log` for a debug mode.
+Make sure your server is running `npm run start` or `npm run start:log` for a debug mode.
 
 In a new terminal window type `curl http://localhost:4000/`.
 
