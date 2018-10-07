@@ -18,8 +18,10 @@ To start server with a debug mode:
 
 ## To use server
 
-Make sure your server is running `npm run start` or `npm run debug:log` for a debug mode. 
-In a new terminal window type `curl http://localhost:4000/`. 
+Make sure your server is running `npm run start` or `npm run debug:log` for a debug mode.
+
+In a new terminal window type `curl http://localhost:4000/`.
+
 You should receive a list of cities found on the page: `https://en.wikipedia.org/wiki/List_of_metropolitan_areas_in_Asia`. 
 
 ## CORS
